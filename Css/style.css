@@ -1,0 +1,49 @@
+/* GLOBAL STYLES */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Aesthetic background color */
+    background-color: #fcf6f0; 
+    color: #333; 
+    font-family: Arial, sans-serif; /* Use your approved font */
+}
+
+/* THEME COLOR UTILITES (Based on Figma color E67C5B) */
+.bg-theme-color {
+    background-color: #E67C5B !important;
+    color: white !important; /* Ensure text is readable on this background */
+}
+
+.text-theme-color {
+    color: #E67C5B !important;
+}
+
+/* NAVIGATION & HEADER STYLES */
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+/* PRODUCT CARD STYLES (for Featured Products section) */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Visual effect when hovering over a product */
+}
+
+/* UNIQUE FEATURE (DESK MOOD PREVIEW) STYLES */
+/* You will add more styles here later for the hover effect */
+.mood-option img {
+    max-height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
